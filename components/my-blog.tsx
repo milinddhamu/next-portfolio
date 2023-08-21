@@ -16,7 +16,9 @@ export const MyBlog:React.FC<MyProps> = async ({length}) => {
   const data:BlogPost[] = await getData();
   const sliceLength = length === "full" ? data?.length : 2;
   const slicedData = data?.slice(0, sliceLength);
-
+  if(!data){
+    return
+  };
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
