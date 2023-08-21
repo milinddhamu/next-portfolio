@@ -1,4 +1,3 @@
-"use client"
 import { BlogCard } from './blog-cards';
 import {BlogPost} from "../config/types";
 

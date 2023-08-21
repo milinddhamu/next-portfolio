@@ -1,8 +1,8 @@
 import {EducationType,ProfileType,LinksType,TechstackItem,TechstackCategory} from "@/config/types";
-import MineData from "@/profile/profile-data";
+import MineData from "../../profile/profile-data";
 import ProfilePic from "./profile-pic";
 import {Divider} from "@nextui-org/divider";
-import { MyProjects } from "@/components/my-projects";
+import { MyProjects } from "../../components/my-projects";
 import {Button} from "@nextui-org/button";
 import {Link} from "@nextui-org/link";
 import {FiChevronRight } from 'react-icons/fi';

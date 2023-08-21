@@ -1,5 +1,5 @@
-import projectsData from "@/projects/projects-data";
-import {ProjectsType,ContentItem} from "@/config/types";
+import projectsData from "../../../projects/projects-data";
+import {ProjectsType,ContentItem} from "../../../config/types";
 import {ProjectVideo} from "../project-video";
 import {Chip} from "@nextui-org/chip";
 import { AiFillGithub, AiOutlineLink,AiFillFolder } from "react-icons/ai";
