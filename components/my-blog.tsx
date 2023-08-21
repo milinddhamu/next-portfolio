@@ -12,11 +12,8 @@ async function getData() {
   return res.json()
 }
 
-export const MyBlog = async () => {
+export default async function MyBlog(){
   const data:BlogPost[] = await getData();
-  if(!data){
-    return
-  };
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

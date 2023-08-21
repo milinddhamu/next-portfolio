@@ -1,4 +1,4 @@
-import { MyBlog } from "@/components/my-blog";
+import MyBlog from "@/components/my-blog";
 
 export default function Page() {
   return (
@@ -8,7 +8,7 @@ export default function Page() {
       <div className="flex w-full px-2">
           <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl">Blogs</h1>
         </div>
-      <MyBlog length="full" />
+      <MyBlog />
       </section>
     </main>
     </>
