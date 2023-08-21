@@ -1,5 +1,3 @@
-import type { InferGetStaticPropsType,InferGetServerSidePropsType, GetStaticProps,GetServerSideProps } from 'next'
-import axios from 'axios';
 import { BlogCard } from './blog-cards';
 import {BlogPost,MyProps} from "../config/types";
 
@@ -10,11 +8,12 @@ async function getData() {
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
+ 
   return res.json()
 }
 
 export const MyBlog:React.FC<MyProps> = async ({length}) => {
-  const data = await getData();
+  const data:BlogPost[] = await getData();
   const sliceLength = length === "full" ? data?.length : 2;
   const slicedData = data?.slice(0, sliceLength);
 
