@@ -17,7 +17,7 @@ export default async function MyBlog(){
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {data.map((blog:BlogPost , index:number )=><BlogCard key={blog?.title} data={blog}/>)}
+      {data?.map((blog:BlogPost , index:number )=><BlogCard key={blog?.title} data={blog}/>)}
     </div>
     </>
   )
