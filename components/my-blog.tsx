@@ -14,9 +14,6 @@ async function getData() {
 
 export const MyBlog = async () => {
   const data:BlogPost[] = await getData();
-  if(!data){
-    return
-  };
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
