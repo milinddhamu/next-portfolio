@@ -1,5 +1,5 @@
 import { BlogCard } from './blog-cards';
-import {BlogPost,MyProps} from "../config/types";
+import {BlogPost} from "../config/types";
 
 async function getData() {
   const res = await fetch(`https://v1.nocodeapi.com/milinddhamu/medium/${process.env.MEDIUM_API}`, {
@@ -12,17 +12,15 @@ async function getData() {
   return res.json()
 }
 
-export const MyBlog:React.FC<MyProps> = async ({length}) => {
+export const MyBlog = async () => {
   const data:BlogPost[] = await getData();
-  const sliceLength = length === "full" ? data?.length : 2;
-  const slicedData = data?.slice(0, sliceLength);
   if(!data){
     return
   };
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {slicedData.map((blog:BlogPost , index:number )=><BlogCard key={blog?.title} data={blog}/>)}
+      {data.map((blog:BlogPost , index:number )=><BlogCard key={blog?.title} data={blog}/>)}
     </div>
     </>
   )

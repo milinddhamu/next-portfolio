@@ -25,7 +25,7 @@ export const Profile = () => {
         <div className="flex w-full px-2">
           <h1 className="font-bold text-2xl">Blogs</h1>
         </div>
-      <MyBlog length="some"/>
+      <MyBlog />
         <div className="flex flex-row-reverse sm:flex-row w-full px-2">
         <Link href="/blog">
       <Button id="allblogs" color="default" variant="bordered" radius="lg">
