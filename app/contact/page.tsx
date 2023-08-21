@@ -5,6 +5,12 @@ import { GrLinkedinOption ,GrReddit,GrTwitter} from "react-icons/gr"
 import { HiMail } from "react-icons/hi"
 import {Tooltip} from "@nextui-org/tooltip";
 
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Contact - Milind Dhamu',
+  description: 'Contact page',
+}
 export default function Page() {
   return (
     <>

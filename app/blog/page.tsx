@@ -1,4 +1,10 @@
 import MyBlog from "../../components/my-blog";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Blogs - Milind Dhamu',
+  description: 'Blog page',
+}
 
 export default function Page() {
   return (

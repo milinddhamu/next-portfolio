@@ -1,5 +1,10 @@
 import { MyProjects } from "../../components/my-projects";
-
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Projects - Milind Dhamu',
+  description: 'Project page',
+}
 export default function Page() {
   return (
     <>

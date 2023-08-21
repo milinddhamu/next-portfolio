@@ -8,6 +8,12 @@ import {Link} from "@nextui-org/link";
 import {FiChevronRight } from 'react-icons/fi';
 import {Chip} from "@nextui-org/chip";
 import {Avatar} from "@nextui-org/avatar";
+import type { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'About - Milind Dhamu',
+  description: 'About page',
+}
 export default function Page() {
   const textShadow = '1px 1px 0px rgba(128, 128, 128, 0.5)';
   return (
