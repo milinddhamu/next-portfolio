@@ -12,7 +12,7 @@ export type BlogPost = {
 };
 
 export type MyProps = {
-  length: "full" | "some"; // Define the prop type
+  length:string;
 };
 
 export type ProjectsType = {
