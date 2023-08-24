@@ -39,7 +39,7 @@ export default function Page() {
         <h2 className="text-md md:text-lg font-semibold">{item.degree}</h2>
         <h2 className="text-xs md:text-sm opacity-70">{item.year}</h2>
         </div>
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col items-end text-end">
         <h2 className="text-md md:text-lg">{item.school}</h2>
         <h2 className="text-xs md:text-sm opacity-70">{item.location}</h2>
         </div>

@@ -58,6 +58,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
       </CardHeader>
       <Image
         removeWrapper
+        loading="lazy"
         alt={data?.title}
         className="z-0 w-full h-full object-cover"
         src={imageUrl}
@@ -70,7 +71,9 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         <div className="flex flex-grow gap-2 items-center">
         <Link isExternal href="https://medium.com/@milind.dhamu.123">
           <Image
+            isZoomed={true}
             alt="Breathing app icon"
+            loading="lazy"
             className="rounded-lg w-10 h-10 bg-black p-2"
             src="https://emojiisland.com/cdn/shop/products/Smiling_Devil_Emoji_large.png"
           />
