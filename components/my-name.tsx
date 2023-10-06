@@ -6,7 +6,7 @@ import RevealSentence from "@/components/reveal-text"
 export const MyName = () => {
   const name = "Milind";
   const nameArray = name.split("");
-  const sentence = `a passionate developer at the crossroads of design and technology. While I'm a frontend enthusiast at heart, I'm embarking on an exciting journey into Full Stack Development. Each project in my portfolio is a reflection of my dedication and authenticity, carefully crafted from the ground up.`
+  const sentence = `A passionate developer at the crossroads of design and technology. While I'm a frontend enthusiast at heart, I'm embarking on an exciting journey into Full Stack Development. Each project in my portfolio is a reflection of my dedication and authenticity, carefully crafted from the ground up.`
   const textShadow = '3px 3px 0px rgba(128, 128, 128, 0.5)';
   return (
     <>

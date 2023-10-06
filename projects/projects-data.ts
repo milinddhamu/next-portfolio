@@ -5,7 +5,7 @@ const projectsData = [
     des: "A comprehensive and user-centric Clash of Clans profile tracker, meticulously designed for base progress tracking and player sorting...",
     github: "https://github.com/milinddhamu/coc-nextjs",
     thumbnail: "/images/coc-profile-tracker-main.jpg",
-    live: "",
+    live: "https://coc-nextjs.vercel.app/",
     video:"UlILvkksg9k",
     tech: ["Next.js", "NextAuth.js", "Firebase", "Express", "Next UI", "Tailwind CSS"],
     details:[
@@ -45,6 +45,30 @@ const projectsData = [
         "content": "Explore the [GitHub repository](https://github.com/milinddhamu/coc-nextjs) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
       }
     ]    
+  },
+  {
+    title: "Quiz Web App",
+    slug: "quiz-web-app",
+    des: "A Single Page Application (SPA) quiz web app built with Next.js, React, and styled-components. Users can participate in quizzes, answer questions, and receive a score report at the end.",
+    github: "https://github.com/milinddhamu/quiz-app",
+    thumbnail: "/images/quiz-app-main.jpg",
+    live: "https://quiz-app-delta-six.vercel.app/",
+    video: "",
+    tech: ["Next.js", "React", "styled-components"],
+    details: [
+      {
+        "title": "Project Description",
+        "content": "The Quiz Web App is designed to allow users to participate in a quiz, answer questions, and receive a score at the end. It follows the guidelines provided in the assignment to create a Single Page Application (SPA) using Next.js, React, and styled-components. The app fetches quiz questions from the 'https://quizapi.io/' API using a unique API key and guides the user through the quiz-taking process."
+      },
+      {
+        "title": "Screens",
+        "content": "The app consists of three main screens: Home, Question, and Report. Each screen serves a specific purpose in the quiz-taking process."
+      },
+      {
+        "title": "Technologies Used",
+        "content": "The project utilizes Next.js for server-rendered React applications, React for building user interfaces, and styled-components for styling React components. It showcases your practice with styled-components and your ability to build a single web app with state management."
+      }
+    ]
   },
   {
     title: "Code Editor",
@@ -115,7 +139,7 @@ const projectsData = [
         "content":" To explore the code and delve into the project's intricacies, visit the [GitHub repository](https://github.com/milinddhamu/url-shortener)."
       }
     ]
-  },
+  },  
   {
     title: "MRI Brain Tumor Detection",
     slug: "mri-brain-tumor-detection",

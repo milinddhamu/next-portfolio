@@ -23,7 +23,6 @@ const Name: React.FC<NameProps> = ({children}) => {
     })
     setIsPlaying(true)
   }
-  useEffect(()=>{ rubberAnime()},[])
   return (
       <motion.span
         animate={controls}
