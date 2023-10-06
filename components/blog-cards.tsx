@@ -57,6 +57,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         <p className="text-sm text-white/80 font-bold">{data?.title}</p>
       </CardHeader>
       <Image
+        loading="lazy"
         removeWrapper
         loading="lazy"
         alt={data?.title}
@@ -72,6 +73,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         <Link isExternal href="https://medium.com/@milind.dhamu.123">
           <Image
             isZoomed={true}
+            loading="lazy"
             alt="Breathing app icon"
             loading="lazy"
             className="rounded-lg w-10 h-10 bg-black p-2"
