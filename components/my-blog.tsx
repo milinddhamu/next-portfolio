@@ -16,7 +16,7 @@ export default async function MyBlog(){
   const data:BlogPost[] = await getData();
   return (
     <>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
       {data ?  data?.map((blog:BlogPost , index:number ) => <BlogCard key={blog?.title} data={blog}/>) :
       <h1>Blogs data &apos;No preview available&apos;</h1>
       }

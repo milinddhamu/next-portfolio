@@ -52,7 +52,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
   const time = timeAgo(data?.published)
   return (
     <>
-    <Card isFooterBlurred className=" h-[300px] border-1 border-gray-500/50">
+    <Card isFooterBlurred style={{borderRadius:"20px"}} className="h-[300px] border-1 border-gray-500/50">
       <CardHeader className="absolute z-10 top-1 flex-col items-start gap-2">
         <p className="text-sm text-white/80 font-bold">{data?.title}</p>
       </CardHeader>
@@ -67,13 +67,13 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         {Tags?.map((cat:string)=><Chip classNames={{content:"text-tiny"}} radius="sm" key={cat} variant="flat" size="sm">{cat}</Chip>)}
       </span>
      
-      <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-2  absolute rounded-xl bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+      <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-2  absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
         <div className="flex flex-grow gap-2 items-center">
         <Link isExternal href="https://medium.com/@milind.dhamu.123">
           <Image
             alt="Breathing app icon"
             loading="lazy"
-            className="rounded-lg w-10 h-10 bg-black p-2"
+            className="rounded-2xl w-10 h-10 bg-black p-2"
             src="https://emojiisland.com/cdn/shop/products/Smiling_Devil_Emoji_large.png"
           />
           </Link>

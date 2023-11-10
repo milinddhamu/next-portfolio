@@ -25,7 +25,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
   const { isOpen, open, close, toggle } = useDisclosure();
   return (
     <>
-      <Card isFooterBlurred className=" h-[300px] min-w-96 border-1 border-gray-500/50">
+      <Card style={{borderRadius:"20px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50">
         <CardHeader className="absolute z-10 top-1 flex-row justify-between items-start gap-2">
           <p className="text-sm text-white/80 font-bold">{data?.title}</p>
           <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
@@ -40,7 +40,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
           className="z-0 w-full h-full object-cover"
           src={data?.thumbnail}
         />
-        <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-1 absolute rounded-xl bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+        <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-1 absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
           <div className="flex flex-row w-full justify-between">
             <div className="flex flex-row gap-2 p-1">
               {data?.github &&

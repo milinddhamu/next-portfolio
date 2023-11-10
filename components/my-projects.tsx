@@ -8,7 +8,7 @@ export const MyProjects:React.FC<MyProps> = ({length}) => {
   const slicedData = projectsData?.slice(0, sliceLength);
   return (
     <>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
       {slicedData?.map((project:ProjectsType , index:number)=><ProjectCard data={project} key={project.title} />)}
     </div>
     </>
