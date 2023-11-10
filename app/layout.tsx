@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 import clsx from "clsx";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import NextTopLoader from 'nextjs-toploader';
 
 export const metadata: Metadata = {
 	themeColor: [
@@ -32,6 +33,7 @@ export default function RootLayout({
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+					<NextTopLoader color="#7828C8" showSpinner={false} />
 							<Navbar />
 							{children}
 							<Footer />

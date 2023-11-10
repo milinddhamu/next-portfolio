@@ -7,11 +7,6 @@ export const Footer = () => {
                 <p>&copy; {new Date().getFullYear()}&nbsp;|&nbsp;</p>
                 <a className="text-blue-500" href="/contact">Contact</a>
                 </div>
-                <Card className="p-2">
-                  
-                    <p>Made with 💜 by &nbsp;<a href="https://github.com/milinddhamu" id="my github" className="hover:underline hover:cursor-pointer hover:text-blue-500">milinddhamu</a></p>
-                  
-                </Card> 
             </div>
         </footer>
   )
