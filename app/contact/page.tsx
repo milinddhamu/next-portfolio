@@ -25,7 +25,7 @@ export default function Page() {
         </div>
         <div className="flex flex-row items-center justify-start p-2 px-4 w-full gap-4 border-l-2 border-gray-500/50">
           <Tooltip content="E-mail">
-        <Link href="mailto:milind.dhamu.123@gmail.com" id="mail">
+        <Link href="mailto:milinddhamu6@gmail.com" id="mail">
           <Button isIconOnly color="default" variant="faded" size="lg">
              <HiMail className="scale-125" />
           </Button>
