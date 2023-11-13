@@ -1,7 +1,7 @@
 const MineData = {
   "name": "Milind Dhamu",
   "phone": "73401 62101",
-  "email": "milind.dhamu.123@gmail.com",
+  "email": "milinddhamu6@gmail.com",
   "education": [
     {
       "degree": "Bachelor's of Engineering, CSE",
@@ -67,7 +67,7 @@ const MineData = {
     },
   ],
   "skills" : [
-    "Basic Data Structures & Algorithms",
+    "Fundamentals Data Structures & Algorithms",
     "In Depth Research",
     "Problem Solving",
   ]  
