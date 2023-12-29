@@ -26,13 +26,13 @@ export default async function Page({ params }: { params: { project: string } }) 
       <section className="flex flex-col max-w-screen-md w-full px-5 gap-4">
       <div className="flex flex-row gap-2 border-l-2 border-[#292f46] px-3">
                       {project?.github &&
-                        <Link href={project?.github}>
+                        <Link href={project?.github} isExternal >
                           <Button isIconOnly color="default" variant="faded" aria-label="github">
                             <AiFillGithub className="text-lg" />
                           </Button>
                         </Link>}
                       {project?.live &&
-                        <Link href={project?.live}>
+                        <Link href={project?.live} isExternal >
                           <Button isIconOnly color="primary" variant="faded" aria-label="live">
                             <AiOutlineLink className="text-lg" />
                           </Button>

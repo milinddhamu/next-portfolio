@@ -68,13 +68,14 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         {Tags?.map((cat:string)=><Chip classNames={{content:"text-tiny"}} radius="sm" key={cat} variant="flat" size="sm">{cat}</Chip>)}
       </span>
      
-      <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-2  absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+      <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-1  absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
         <div className="flex flex-grow gap-2 items-center">
         <Link isExternal href="https://medium.com/@milind.dhamu.123">
           <Image
             alt="Breathing app icon"
             loading="lazy"
-            className="rounded-2xl w-10 h-10 bg-black p-2"
+            style={{borderRadius:"16px"}}
+            className=" w-10 h-10 bg-black p-2"
             src="https://emojiisland.com/cdn/shop/products/Smiling_Devil_Emoji_large.png"
           />
           </Link>
@@ -84,8 +85,8 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
           </div>
         </div>
         <Link isExternal href={profileLink}>
-        <Button color="default" variant="faded" className=" bg-opacity-50 border-opacity-50 group">
-              <span className="flex flex-row items-center gap-1">Full post <CgExternal className=" opacity-70 group-hover:text-blue-500 group-hover:opacity-100 transition-all mt-1" /> </span>
+        <Button color="default" variant="faded" className=" bg-opacity-50 border-opacity-50 group" style={{borderRadius:"16px"}}>
+              <span className="flex flex-row items-center gap-1">Full post <CgExternal className=" opacity-70 group-hover:text-blue-500 group-hover:opacity-100 transition-all text-lg" /> </span>
             </Button>
         </Link>
       </CardFooter>

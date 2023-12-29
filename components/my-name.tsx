@@ -14,10 +14,10 @@ export const MyName = () => {
     <h1 className="text-lg md:text-xl font-thin">
       <a className="wave pr-2">👋</a>Hey there, I{`\u0027`}m
       </h1>
-      <span className="flex flex-row">
+      <span className="flex flex-row justify-center">
         {nameArray.map((character:string, index:number) => {
           return ( 
-              <Name key={`${character}-${index}`}><h1 className={`text-6xl lg:text-8xl font-extrabold uppercase cursor-pointer`} style={{textShadow}}>{character}</h1></Name>
+              <Name key={`${character}-${index}`}><h1 className={`text-7xl lg:text-8xl font-extrabold uppercase cursor-pointer`} style={{textShadow}}>{character}</h1></Name>
             )})}
       </span>
     <Spacer y={3} />
