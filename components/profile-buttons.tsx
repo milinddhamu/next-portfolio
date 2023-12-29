@@ -6,19 +6,19 @@ import { Link } from "@nextui-org/link";
 const ProfileButtons = () => {
   
   return (
-    <span className="flex flex-row-reverse sm:flex-row gap-2 w-full">
+    <span className="flex flex-row justify-center gap-1 w-full">
       <Link href="/about">
-          <Button color="default" id="aboutme" variant="bordered" radius="lg">
-           <span className="flex flex-row items-center gap-1"> About me<FiChevronRight className="mt-[1px]"/></ span>
-          </Button>
+      <Button color="default" style={{borderRadius:"16px 4px 4px 16px"}} variant="bordered" className="group" id="about-me" >
+              <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
+            </Button>
       </Link>
       <Link href="https://drive.google.com/file/d/1zQ9dGbCN2m6Qowdrl8bVapwvwyYXvWPs/view?usp=sharing">
-        <Button color="default" id="download" variant="bordered" radius="lg">
+        <Button style={{borderRadius:"4px"}} color="default" id="download" variant="bordered">
           Download CV<FiDownload />
         </Button>
       </Link>
-      <Link href="/contact">
-          <Button id="contact" color="default" variant="bordered" radius="lg">
+      <Link  href="/contact">
+          <Button id="contact" style={{borderRadius:"4px 16px 16px 4px"}} color="default" variant="bordered" >
             Connect
             <span>&#x1F4E3;</span> 
           </Button>

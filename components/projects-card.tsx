@@ -3,12 +3,8 @@ import { Image } from "@nextui-org/image";
 import { Button } from "@nextui-org/button";
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Link } from "@nextui-org/link";
-import { ProjectsType } from "../config/types"
-import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from "@nextui-org/modal";
 import { useDisclosure } from "react-use-disclosure";
-import { Chip } from "@nextui-org/chip";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import { CiFolderOn } from "react-icons/ci";
 import { FiChevronRight } from 'react-icons/fi';
 
 interface ProjectCardProps {
@@ -28,13 +24,8 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
   return (
     <>
       <Card style={{borderRadius:"20px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50">
-        <CardHeader className="absolute z-10 top-1 flex-row justify-between items-start gap-2">
+        <CardHeader className="absolute z-10 top-1 flex-row justify-start items-start gap-2">
           <p className="text-sm text-white/80 font-bold">{data?.title}</p>
-          <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
-                  <Button isIconOnly color="default" variant="faded" aria-label="Open Project" className="bg-opacity-50 border-opacity-50 text-lg">
-                    <CiFolderOn />
-                  </Button>
-                </Link>
         </CardHeader>
         <Image
           removeWrapper
@@ -42,79 +33,29 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
           className="z-0 w-full h-full object-cover"
           src={data?.thumbnail}
         />
-        <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-1 absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+        <CardFooter style={{borderRadius:"18px"}} className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden p-0 absolute bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
           <div className="flex flex-row w-full justify-between">
-            <div className="flex flex-row gap-2 p-1">
+            <div className="flex flex-row gap-1 p-1">
               {data?.github &&
-                <Link href={data?.github}>
-                  <Button isIconOnly color="default" variant="faded" className="bg-opacity-50 border-opacity-50 text-lg" aria-label="github">
+                <Link href={data?.github} isExternal >
+                  <Button isIconOnly color="default" variant="faded" style={{borderRadius:"16px 4px 4px 16px"}} className="bg-opacity-50 border-opacity-50 text-lg" aria-label="github">
                     <AiFillGithub />
                   </Button>
                 </Link>}
               {data?.live &&
-                <Link href={data?.live}>
-                  <Button isIconOnly color="primary" variant="faded" aria-label="live" className="bg-opacity-50 border-opacity-50 text-lg">
+                <Link href={data?.live} isExternal >
+                  <Button isIconOnly color="primary" variant="faded" style={{borderRadius:"4px 16px 16px 4px"}} aria-label="live" className="bg-opacity-50 border-opacity-50 text-lg">
                     <AiOutlineLink />
                   </Button>
                 </Link>}
             </div>
-            <Button color="default" variant="faded" className="m-1 bg-opacity-50 border-opacity-50 group" onPress={open}>
-              <span className="flex flex-row items-center gap-2">Read more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all" /> </span>
+            <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
+            <Button color="default" style={{borderRadius:"16px"}} variant="faded" className="m-1 bg-opacity-50 border-opacity-50 group" >
+              <span className="flex flex-row items-center gap-2">Read more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
+            </Link>
           </div>
         </CardFooter>
-        <Modal
-          classNames={{
-            body: "py-6",
-            base: "border-1-[#292f46] bg-[#19172c] dark:bg-[#19172c] text-[#a8b0d3]",
-            header: "border-b-[1px] border-[#292f46]",
-            footer: "border-t-[1px] border-[#292f46]",
-            closeButton: "hover:bg-white/5 active:bg-white/10",
-          }}
-          backdrop="blur"
-          isOpen={isOpen}
-          onOpenChange={toggle}
-          scrollBehavior="inside"
-        >
-          <ModalContent>
-            {(close) => (
-              <>
-                <ModalHeader className="flex flex-col gap-1">
-                  <h2 className="text-extrabold">{data?.title}</h2>
-                </ModalHeader>
-                <div className="grid-flow-col p-1 px-3 border-b-[1px] border-[#292f46]">
-                  {data?.tech.map((tech: string) => <Chip className="m-1" classNames={{ base: "min-w-fit", content: "text-tiny" }} radius="sm" key={tech} variant="flat" color="default" size="md">{tech}</Chip>)}
-                </div>
-                <ModalBody >
-                  <p className="">{data?.des}</p>
-                </ModalBody>
-                <ModalFooter className="p-2 m-0">
-                  <div className="flex w-full justify-between">
-                    <div className="flex flex-row gap-2">
-                      {data?.github &&
-                        <Link href={data?.github}>
-                          <Button isIconOnly color="default" variant="faded" aria-label="github">
-                            <AiFillGithub />
-                          </Button>
-                        </Link>}
-                      {data?.live &&
-                        <Link href={data?.live}>
-                          <Button isIconOnly color="default" variant="faded" aria-label="live">
-                            <AiOutlineLink />
-                          </Button>
-                        </Link>}
-                    </div>
-                    <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
-                      <Button color="primary" variant="faded" aria-label="live">
-                        Open project
-                      </Button>
-                    </Link>
-                  </div>
-                </ModalFooter>
-              </>
-            )}
-          </ModalContent>
-        </Modal>
       </Card>
     </>
   )
