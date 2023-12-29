@@ -46,6 +46,68 @@ const projectsData = [
       }
     ]    
   },
+  
+  {
+    title: "Web Duels",
+    slug: "web-duels",
+    des: "A Mini Games project featuring TicTacToe, Typing game and much more coming..",
+    github: "https://github.com/milinddhamu/mini-games",
+    thumbnail: "/images/web-duels-main.png",
+    live: "https://webduels.vercel.app/",
+    video: "", // If applicable
+    tech: [
+      "Next.js",
+      "Express",
+      "Socket.IO",
+      "Next-UI",
+      "Tailwind CSS",
+    ],
+    details: [
+      {
+        title: "Overview",
+        content:
+          "Welcome to WebDuels - a mini-games project featuring two exciting 1v1 games. This project includes Tic Tac Toe, a classic game for friendly duels on a single screen or in an online room using WebSockets, and TypeTest, a game inspired by MonkeyType with a custom caret and a results page.",
+      },
+      {
+        title: "Project Structure",
+        content:
+          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- Express\n- Socket.IO\n- Framer Motion\n- React-Confetti\n- Next-UI-Org\n- Tailwind CSS",
+      },
+      {
+        title: "Installation",
+        content:
+          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/your-username/mini-games.git\ncd mini-games\nnpm install\n```",
+      },
+      {
+        title: "Usage",
+        content:
+          "### Development\nRun the development server:\n```bash\nnpm run dev\n```\nVisit [http://localhost:3000](http://localhost:3000) to view your application.\n\n### Build\nBuild the production-ready application:\n```bash\nnpm run build\n```\n### Start\nStart the production server:\n```bash\nnpm start\n```",
+      },
+      {
+        title: "Tic Tac Toe (1v1 - Single Screen)",
+        content:
+          "Challenge a friend to a classic game of Tic Tac Toe on a single screen. Enjoy the timeless fun of this strategic game in a friendly duel.",
+      },
+      {
+        title: "Tic Tac Toe (1v1 - Online Room)",
+        content:
+          "Experience the thrill of playing Tic Tac Toe in real-time against a friend online. Create or join a room, and let the dueling begin with the power of WebSockets.",
+      },
+      {
+        title: "TypeTest (Solo)",
+        content:
+          "Put your typing skills to the test in a solo TypeTest challenge. With a custom caret and a results page, compete against the clock to see how fast and accurately you can type. You have 15 seconds to showcase your typing prowess. Try to achieve the highest score and challenge yourself to improve with each attempt. Good luck!",
+      },
+      {
+        title: "Mobile Responsiveness",
+        content:
+          "Both games are designed to be fully responsive on mobile devices, ensuring an enjoyable gaming experience across various screen sizes.",
+      },
+      {
+        "content": "Explore the [GitHub repository](https://github.com/milinddhamu/mini-games) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
+      }
+    ],
+  },
   {
     title: "Quiz Web App",
     slug: "quiz-web-app",

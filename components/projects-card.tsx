@@ -7,7 +7,9 @@ import { ProjectsType } from "../config/types"
 import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from "@nextui-org/modal";
 import { useDisclosure } from "react-use-disclosure";
 import { Chip } from "@nextui-org/chip";
-import { AiFillGithub, AiOutlineLink,AiFillFolder } from "react-icons/ai";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import { CiFolderOn } from "react-icons/ci";
+import { FiChevronRight } from 'react-icons/fi';
 
 interface ProjectCardProps {
   data: {
@@ -29,8 +31,8 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
         <CardHeader className="absolute z-10 top-1 flex-row justify-between items-start gap-2">
           <p className="text-sm text-white/80 font-bold">{data?.title}</p>
           <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
-                  <Button isIconOnly color="default" variant="faded" aria-label="github">
-                    <AiFillFolder />
+                  <Button isIconOnly color="default" variant="faded" aria-label="Open Project" className="bg-opacity-50 border-opacity-50 text-lg">
+                    <CiFolderOn />
                   </Button>
                 </Link>
         </CardHeader>
@@ -45,19 +47,19 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
             <div className="flex flex-row gap-2 p-1">
               {data?.github &&
                 <Link href={data?.github}>
-                  <Button isIconOnly color="default" variant="faded" aria-label="github">
+                  <Button isIconOnly color="default" variant="faded" className="bg-opacity-50 border-opacity-50 text-lg" aria-label="github">
                     <AiFillGithub />
                   </Button>
                 </Link>}
               {data?.live &&
                 <Link href={data?.live}>
-                  <Button isIconOnly color="primary" variant="faded" aria-label="live">
+                  <Button isIconOnly color="primary" variant="faded" aria-label="live" className="bg-opacity-50 border-opacity-50 text-lg">
                     <AiOutlineLink />
                   </Button>
                 </Link>}
             </div>
-            <Button color="default" variant="faded" className="m-1" onPress={open}>
-              Read more
+            <Button color="default" variant="faded" className="m-1 bg-opacity-50 border-opacity-50 group" onPress={open}>
+              <span className="flex flex-row items-center gap-2">Read more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all" /> </span>
             </Button>
           </div>
         </CardFooter>
@@ -84,7 +86,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
                   {data?.tech.map((tech: string) => <Chip className="m-1" classNames={{ base: "min-w-fit", content: "text-tiny" }} radius="sm" key={tech} variant="flat" color="default" size="md">{tech}</Chip>)}
                 </div>
                 <ModalBody >
-                  <p className="text-justify">{data?.des}</p>
+                  <p className="">{data?.des}</p>
                 </ModalBody>
                 <ModalFooter className="p-2 m-0">
                   <div className="flex w-full justify-between">

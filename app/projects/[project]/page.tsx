@@ -28,13 +28,13 @@ export default async function Page({ params }: { params: { project: string } }) 
                       {project?.github &&
                         <Link href={project?.github}>
                           <Button isIconOnly color="default" variant="faded" aria-label="github">
-                            <AiFillGithub />
+                            <AiFillGithub className="text-lg" />
                           </Button>
                         </Link>}
                       {project?.live &&
                         <Link href={project?.live}>
                           <Button isIconOnly color="primary" variant="faded" aria-label="live">
-                            <AiOutlineLink />
+                            <AiOutlineLink className="text-lg" />
                           </Button>
                         </Link>}
                     </div>
@@ -51,7 +51,7 @@ export default async function Page({ params }: { params: { project: string } }) 
           return (
             <div key={item.title}>
                 <h2 className="text-xl lg:text-2xl mt-4 font-semibold">{item.title}</h2>
-                <p className="text-base lg:text-lg mt-2 text-justify">{item.content}</p>
+                <p className="text-base lg:text-lg mt-2 ">{item.content}</p>
               </div>
           )})}
           <p className="mt-4 text-justify italic text-light">
