@@ -6,7 +6,7 @@ import RevealSentence from "@/components/reveal-text"
 export const MyName = () => {
   const name = "Milind";
   const nameArray = name.split("");
-  const sentence = `A passionate developer at the crossroads of design and technology. While I'm a frontend enthusiast at heart, I'm embarking on an exciting journey into Full Stack Development. Each project in my portfolio is a reflection of my dedication and authenticity, carefully crafted from the ground up.`
+  const sentence = `I'm a frontend enthusiast at heart, I'm embarking on an exciting journey into Full Stack Development. Each project in my portfolio is a reflection of my dedication and authenticity, carefully crafted from the ground up.`
   const textShadow = '3px 3px 0px rgba(128, 128, 128, 0.5)';
   return (
     <>
@@ -20,7 +20,7 @@ export const MyName = () => {
               <Name key={`${character}-${index}`}><h1 className={`text-6xl lg:text-8xl font-extrabold uppercase cursor-pointer`} style={{textShadow}}>{character}</h1></Name>
             )})}
       </span>
-    <Spacer y={1.5} />
+    <Spacer y={3} />
     <div>
     {
         <RevealSentence  sentence={sentence}/> 

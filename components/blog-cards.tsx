@@ -4,6 +4,7 @@ import {Card, CardBody, CardFooter,CardHeader} from "@nextui-org/card";
 import {Link} from "@nextui-org/link";
 import {BlogPost} from "../config/types";
 import {Chip} from "@nextui-org/chip";
+import { CgExternal } from "react-icons/cg";
 
 type BlogCardProps = {
   data: BlogPost;
@@ -83,9 +84,10 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
           </div>
         </div>
         <Link isExternal href={profileLink}>
-        <Button color="default" variant="faded" radius="md">
-        Full Post
-        </Button></Link>
+        <Button color="default" variant="faded" className=" bg-opacity-50 border-opacity-50 group">
+              <span className="flex flex-row items-center gap-1">Full post <CgExternal className=" opacity-70 group-hover:text-blue-500 group-hover:opacity-100 transition-all mt-1" /> </span>
+            </Button>
+        </Link>
       </CardFooter>
     </Card>
     </>

@@ -9,7 +9,7 @@ const ProfileButtons = () => {
     <span className="flex flex-row-reverse sm:flex-row gap-2 w-full">
       <Link href="/about">
           <Button color="default" id="aboutme" variant="bordered" radius="lg">
-            About me<FiChevronRight />
+           <span className="flex flex-row items-center gap-1"> About me<FiChevronRight className="mt-[1px]"/></ span>
           </Button>
       </Link>
       <Link href="https://drive.google.com/file/d/1zQ9dGbCN2m6Qowdrl8bVapwvwyYXvWPs/view?usp=sharing">
