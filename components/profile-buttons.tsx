@@ -13,7 +13,7 @@ const ProfileButtons = () => {
             </Button>
       </Link>
       <Link href="https://drive.google.com/file/d/1zQ9dGbCN2m6Qowdrl8bVapwvwyYXvWPs/view?usp=sharing">
-        <Button style={{borderRadius:"4px"}} color="default" id="download" variant="bordered">
+        <Button style={{borderRadius:"4px"}}  color="default" id="download" variant="bordered">
           Download CV<FiDownload />
         </Button>
       </Link>

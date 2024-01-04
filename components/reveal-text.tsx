@@ -7,8 +7,8 @@ interface RevealSentenceProps {
 const RevealSentence: React.FC<RevealSentenceProps> = ({ sentence }) => {
   return (
     <>
-      <div className="overflow-hidden text-center">
-      <h2 className="text-md md:text-lg opacity-70">
+      <div className="overflow-hidden text-center py-4">
+      <h2 className="text-sm md:text-base opacity-70 font-mono font-medium">
         {sentence}
       </h2>
     </div>
