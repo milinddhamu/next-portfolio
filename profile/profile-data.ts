@@ -4,14 +4,14 @@ const MineData = {
   "email": "milinddhamu6@gmail.com",
   "education": [
     {
-      "degree": "Bachelor's of Engineering, CSE",
+      "degree": "BE in Computer Science & Engineering",
       "school": "Chandigarh University",
       "location": "Mohali, Punjab",
       "year": "2019 - 2023"
     },
     {
-      "degree": "JEE Coaching/High School",
-      "school": "Allen Carrer Institute",
+      "degree": "High School",
+      "school": "Emmanuel Mission School",
       "location": "Kota, Rajasthan",
       "year": "2017 - 2019"
     }
@@ -19,9 +19,9 @@ const MineData = {
   "links": {
     "GitHub": "https://github.com/milinddhamu",
     "LinkedIn": "https://www.linkedin.com/in/milinddhamu/",
-    "Portfolio": "https://milinddhamu.vercel.app"
+    "Portfolio": "https://milinddhamu.com"
   },
-  "description": "Hey there! I'm Milind Dhamu, a curious problem solver on a mission to create. With a completed Bachelor's in Computer Science, I've embarked on a journey of hands-on learning and perpetual exploration. My passion for frontend development led me to uncover the magic of full-stack development, where I thrive on turning intricate challenges into enjoyable puzzles. I'm fascinated by the synergy between creative design and elegant algorithms.\n\nI'm deeply intrigued by emerging technologies and trends, and I'm always on the lookout for the next exciting advancement. Beyond the digital realm, I have a background in photo and video editing, along with animation using various digital art tools. When I'm not crafting code, you can find me immersed in competitive online games. I'm constantly seeking mentorship opportunities to enhance my skills and nurture my creativity. Let's connect and build something incredible together!",
+  "description": "I'm Milind Dhamu, a Computer Science graduate with a passion for full-stack development, blends creative design with elegant algorithms. Fascinated by emerging technologies and trends, he seeks challenges and mentorship opportunities to enhance his skills. Let's connect and create something amazing!",
   "techstack":[
     {
       category: "Languages",
@@ -39,8 +39,8 @@ const MineData = {
         { name: "ReactJS", image: "/icons/ReactJS-min.png" },
         { name: "NextJS", image: "/icons/NextJS-min.png" },
         { name: "TailwindCSS", image: "/icons/TailwindCSS-min.png" },
+        { name: "Styled Components", image: "/icons/Styled-Components-min.svg" },
         { name: "RecoilJS", image: "/icons/RecoilJS-min.png" },
-        { name: "Redux", image: "/icons/Redux-min.png" }
       ],
     },
     {
@@ -48,14 +48,15 @@ const MineData = {
       items: [
         { name: "Node.js", image: "/icons/Node.js-min.png" },
         { name: "Express", image: "/icons/Express-min.png" },
+        { name: "SocketIO", image: "/icons/Socket.Io-min.png" },
         { name: "Firebase", image: "/icons/Firebase-min.png" },
-        { name: "GraphQL", image: "/icons/GraphQL-min.png" },
       ],
     },
     {
       category: "Design & UI Libraries",
       items: [
         { name: "NextUI", image: "/icons/NextUI-min.png" },
+        { name: "Material UI", image: "/icons/mui-min.png" },
         { name: "Framer Motion", image: "/icons/Framer-Motion-min.png" },
       ],
     },
@@ -70,6 +71,7 @@ const MineData = {
     "Fundamentals Data Structures & Algorithms",
     "In Depth Research",
     "Problem Solving",
+    "Design Detailing"
   ]  
 };
 
