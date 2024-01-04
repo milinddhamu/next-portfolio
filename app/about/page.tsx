@@ -51,8 +51,8 @@ export default function Page() {
       </section>
       <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
-        <h1 className="text-xl lg:text-2xl font-semibold">About me</h1>
-        <p className="text-justify md:text-md px-3">{MineData.description}</p>
+        <h1 className="text-xl lg:text-2xl">About me</h1>
+        <p className="text-left md:text-base px-3" style={{lineHeight:"1.2rem"}}>{MineData.description}</p>
       </section>
       <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4">
