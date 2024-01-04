@@ -76,7 +76,7 @@ export const Navbar = () => {
 			<NavbarMenu>
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
-						<NavbarMenuItem key={`${item}-${index}`}>
+						<NavbarMenuItem key={`${item}-${index}`} className="border-b-1 border-gray-500/40 pb-2">
 							<Link
 								color={
 									index === 1
@@ -87,7 +87,7 @@ export const Navbar = () => {
 								}
 								href={item.href}
 								size="lg"
-								className="hover:translate-x-1 transition-all ease-in duration-300 hover:underline"
+								className="transition-all ease-in-out duration-300 hover:tracking-widest uppercase font-semibold"
 							>
 								{item.label}
 							</Link>
