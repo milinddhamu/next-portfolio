@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import NextTopLoader from 'nextjs-toploader';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
 	themeColor: [
@@ -36,6 +37,7 @@ export default function RootLayout({
 					<NextTopLoader color="#7828C8" showSpinner={false} />
 							<Navbar />
 							{children}
+							<SpeedInsights />
 							<Footer />
 				</Providers>
 			</body>
