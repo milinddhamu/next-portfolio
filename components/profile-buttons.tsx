@@ -12,7 +12,7 @@ const ProfileButtons = () => {
               <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
       </Link>
-      <Link href="https://drive.google.com/file/d/1zQ9dGbCN2m6Qowdrl8bVapwvwyYXvWPs/view?usp=sharing">
+      <Link href={process.env.NEXT_PUBLIC_RESUME_URL}>
         <Button style={{borderRadius:"4px"}}  color="default" id="download" variant="bordered">
           Download CV<FiDownload />
         </Button>
