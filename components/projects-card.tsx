@@ -51,7 +51,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
             </div>
             <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
             <Button color="default" style={{borderRadius:"16px"}} variant="faded" className="m-1 bg-opacity-50 border-opacity-50 group" >
-              <span className="flex flex-row items-center gap-2">Read more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
+              <span className="flex flex-row items-center gap-2">learn more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
             </Link>
           </div>
