@@ -12,12 +12,12 @@ const ProfileButtons = () => {
               <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
       </Link>
-      <Link href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_URL}/view?usp=sharing`}>
+      <Link href={`https://drive.google.com/file/d/1nTucImgj2YpflWcOqQAzzsb_CYLNy-we/view?usp=sharing`}>
         <Button style={{borderRadius:"4px"}}  color="default" id="download" variant="bordered">
           Download CV<FiDownload />
         </Button>
       </Link>
-      <Link  href="/contact">
+      <Link href="/contact">
           <Button id="contact" style={{borderRadius:"4px 16px 16px 4px"}} color="default" variant="bordered" >
             Connect
             <span>&#x1F4E3;</span> 
