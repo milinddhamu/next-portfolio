@@ -109,6 +109,37 @@ const projectsData = [
     ],
   },
   {
+    title: "Tiny Trims",
+    slug: "tiny-trims",
+    des: "A Next API routes based url-shortener with MongoDB & shadcn for ui.",
+    github: "https://github.com/milinddhamu/tinytrims",
+    thumbnail: "/images/tiny-trims-main.png",
+    live: "https://tinytrims.vercel.app/",
+    video: "", // If applicable
+    tech: [
+      "Next.js",
+      "MongoDB",
+      "shadcn/ui",
+      "next-auth",
+      "Tailwind CSS",
+    ],
+    details: [
+      {
+        title: "Overview",
+        content:
+          "Welcome to TinyTrims, an advanced URL shortener project built with Next.js, MongoDB, NextAuth, and Shadcn UI. 🌐 This project allows you to swiftly and securely shorten URLs, providing a sleek and intuitive user interface.",
+      },
+      {
+        title: "Project Structure",
+        content:
+          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- MongoDB\n- shadcn\n- Next API routes\n- next-auth\n- Tailwind CSS",
+      },
+      {
+        "content": "Explore the [TinyTrims](https://github.com/milinddhamu/tinytrims) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
+      }
+    ],
+  },
+  {
     title: "Quiz Web App",
     slug: "quiz-web-app",
     des: "A Single Page Application (SPA) quiz web app built with Next.js, React, and styled-components. Users can participate in quizzes, answer questions, and receive a score report at the end.",
