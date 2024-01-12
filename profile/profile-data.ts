@@ -50,6 +50,7 @@ const MineData = {
         { name: "Express", image: "/icons/Express-min.png" },
         { name: "SocketIO", image: "/icons/Socket.Io-min.png" },
         { name: "Firebase", image: "/icons/Firebase-min.png" },
+        { name: "MongoDB", image: "/icons/Mongo-min.png" },
       ],
     },
     {
@@ -57,6 +58,7 @@ const MineData = {
       items: [
         { name: "NextUI", image: "/icons/NextUI-min.png" },
         { name: "Material UI", image: "/icons/mui-min.png" },
+        { name: "RadixUI / shadcn", image: "/icons/radix-min.svg" },
         { name: "Framer Motion", image: "/icons/Framer-Motion-min.png" },
       ],
     },

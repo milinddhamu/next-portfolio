@@ -18,7 +18,7 @@ export const MyName = () => {
       <span className="flex flex-row justify-center opacity-85 tracking-[0.15em]">
         {nameArray.map((character:string, index:number) => {
           return ( 
-              <Name key={`${character}-${index}`}><h1 className={`text-7xl lg:text-8xl uppercase cursor-pointer font-black `}
+              <Name key={`${character}-${index}`}><h1 className={`text-7xl lg:text-8xl uppercase cursor-pointer font-black`}
               style={{textShadow}}  
               >{character}</h1></Name>
             )})}
