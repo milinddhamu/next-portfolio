@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
  
 export const metadata: Metadata = {
   title: 'Milind Dhamu',
-  description: 'Home page',
+  description: 'Full stack developer',
 };
 
 export default function Home() {
