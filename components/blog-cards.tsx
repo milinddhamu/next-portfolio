@@ -53,7 +53,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
   const time = timeAgo(data?.published)
   return (
     <>
-    <Card isFooterBlurred style={{borderRadius:"20px"}} className="h-[300px] border-1 border-gray-500/50">
+    <Card isFooterBlurred style={{borderRadius:"22px"}} className="h-[300px] border-1 border-gray-500/50">
       <CardHeader className="absolute z-10 top-1 flex-col items-start gap-2">
         <p className="text-sm text-white/80 font-bold">{data?.title}</p>
       </CardHeader>

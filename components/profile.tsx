@@ -41,7 +41,7 @@ export const Profile = () => {
           <h1 className="font-bold text-2xl">Blogs</h1>
         </div>
         {/* @ts-expect-error Server Component */}
-      <MyBlog />
+      <MyBlog length="some" />
         <div className="flex flex-row-reverse sm:flex-row w-full px-2">
         <Link href="/blog">
       <Button id="allblogs" color="default" variant="bordered" radius="lg">
