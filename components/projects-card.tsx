@@ -23,7 +23,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
   const { isOpen, open, close, toggle } = useDisclosure();
   return (
     <>
-      <Card style={{borderRadius:"20px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50 group">
+      <Card style={{borderRadius:"22px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50 group">
         <CardHeader className="absolute z-10 top-1 flex-row justify-start items-start gap-2">
           <p className="text-sm text-white/80 font-bold group-hover:translate-x-1 transition-all duration-300 ">{data?.title}</p>
         </CardHeader>

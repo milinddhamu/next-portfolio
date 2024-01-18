@@ -15,7 +15,7 @@ export default function Page() {
           <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl">Blogs</h1>
         </div>
       {/* @ts-expect-error Server Component */}
-      <MyBlog />
+      <MyBlog length="full" />
       </section>
     </main>
     </>
