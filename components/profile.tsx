@@ -1,4 +1,3 @@
-import Name from "@/components/name-anime";
 import * as React from "react";
 import {MyName} from "@/components/my-name";
 import {Divider} from "@nextui-org/divider";
@@ -7,7 +6,7 @@ import MyBlog from "./my-blog";
 import { MyProjects } from "./my-projects";
 import {Button} from "@nextui-org/button";
 import {Link} from "@nextui-org/link";
-import {FiChevronRight } from 'react-icons/fi';
+import { FiChevronRight } from 'react-icons/fi';
 
 
 export const Profile = () => {
