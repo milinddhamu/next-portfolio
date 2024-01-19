@@ -241,7 +241,12 @@ const projectsData = [
     thumbnail: "/images/url-shortener-main.webp",
     live: "https://url-shortener-six-theta.vercel.app/",
     video:"xNK_cBuqUGs",
-    tech: ["Next UI v1", "Next.js", "Tailwind CSS", "Axios"],
+    tech: [
+      "Next UI v1", 
+      "Next.js", 
+      "Tailwind CSS", 
+      "Axios"
+    ],
     details: [
       {
         "title": "Introduction",
@@ -276,7 +281,13 @@ const projectsData = [
     video:"",
     thumbnail: "/images/tumor-detection-main.webp",
     live: "",
-    tech: ["Python", "Pandas", "TensorFlow", "Jupyter Notebook", "Keras"],
+    tech: [
+      "Python", 
+      "Pandas", 
+      "TensorFlow", 
+      "Jupyter Notebook", 
+      "Keras"
+    ],
     "details": [
       {
         "title": "Project Overview",
@@ -301,7 +312,8 @@ const projectsData = [
       {
         "title": "Jupyter Notebook for Analysis",
         "content": "Jupyter Notebook is used for coding, data visualization, and analysis. It enables an interactive coding environment, allowing researchers to iteratively explore and visualize results. Notebooks also serve as documentation, preserving the analysis process and insights."
-      },{
+      },
+      {
         content:"The successful implementation of this project can revolutionize medical diagnostics and patient care. By harnessing the power of machine learning and image analysis, this project contributes to advancements in brain tumor detection, leading to better patient outcomes and healthcare practices."
       }
     ]
