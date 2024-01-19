@@ -135,6 +135,11 @@ const projectsData = [
           "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- MongoDB\n- shadcn\n- Next API routes\n- next-auth\n- Tailwind CSS",
       },
       {
+        title: "Next.js API routes",
+        content:
+          "With App router , the database work is done with Next.js API routes. Auth.js or next-auth provides function for protected api routes with session data. Except some public routes all rest routes are protected with next-auth `auth() function to protect api routes`.",
+      },
+      {
         title: "Installation",
         content:
           "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
