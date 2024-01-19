@@ -139,7 +139,7 @@ const projectsData = [
       {
         title: "Project Structure",
         content:
-          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- MongoDB\n- shadcn\n- Next API routes\n- next-auth\n- Tailwind CSS",
+          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:Next.js - MongoDB - shadcn - Next API routes - next-auth - Tailwind CSS",
       },
       {
         title: "Next.js API routes",
@@ -154,7 +154,7 @@ const projectsData = [
       {
         title: "Installation",
         content:
-          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
+          "To get started, clone the repository and install the dependencies: git clone https://github.com/milinddhamu/tiny-trims.git cd mini-games npm install ",
       },
       {
         title: "Database",
@@ -240,7 +240,7 @@ const projectsData = [
   {
     title: "MRI Brain Tumor Detection",
     slug: "mri-brain-tumor-detection",
-    des: "An advanced project focused on MRI brain tumor detection using machine learning techniques. This project involves processing a dataset of brain MRI images...",
+    des: "An advanced project focused on MRI brain tumor detection using machine learning techniques. This project involves processing a dataset of brain MRI images",
     github: "",
     video:"",
     thumbnail: "/images/tumor-detection-main.webp",
@@ -263,7 +263,7 @@ const projectsData = [
       },
       {
         "title": "Advantages of Numpy",
-        "content": "Numpy is a fundamental library in Python that provides support for multi-dimensional arrays and matrices. In this project, Numpy facilitates:\n- Efficient preprocessing of raw image data\n- Mathematical operations for feature extraction\n- Seamless integration with machine learning frameworks like Tensorflow and Keras"
+        "content": "Numpy is a fundamental library in Python that provides support for multi-dimensional arrays and matrices. In this project, Numpy facilitates: - Efficient preprocessing of raw image data - Mathematical operations for feature extraction - Seamless integration with machine learning frameworks like Tensorflow and Keras"
       },
       {
         "title": "Machine Learning Frameworks",
@@ -271,7 +271,7 @@ const projectsData = [
       },
       {
         "title": "Advantages of Tensorflow and Keras",
-        "content": "Tensorflow and Keras offer several advantages within the project:\n- Streamlined model architecture design\n- GPU acceleration for efficient training\n- Flexibility to experiment with various neural network architectures\n- Robust tools for model evaluation and performance metrics"
+        "content": "Tensorflow and Keras offer several advantages within the project:Streamlined model architecture design - GPU acceleration for efficient training - Flexibility to experiment with various neural network architectures - Robust tools for model evaluation and performance metrics"
       },
       {
         "title": "Jupyter Notebook for Analysis",
