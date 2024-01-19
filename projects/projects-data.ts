@@ -7,7 +7,14 @@ const projectsData = [
     thumbnail: "/images/coc-profile-tracker-main.webp",
     live: "https://coc-nextjs.vercel.app/",
     video:"UlILvkksg9k",
-    tech: ["Next.js", "NextAuth.js", "Firebase", "Express", "Next UI", "Tailwind CSS"],
+    tech: [
+      "Next.js",
+      "NextAuth.js", 
+      "Firebase", 
+      "Express", 
+      "Next UI", 
+      "Tailwind CSS"
+    ],
     details:[
       {
         "title": "Introduction",
@@ -167,7 +174,11 @@ const projectsData = [
     thumbnail: "/images/quiz-app-main.webp",
     live: "https://quiz-app-delta-six.vercel.app/",
     video: "",
-    tech: ["Next.js", "React", "styled-components"],
+    tech: [
+      "Next.js",
+      "React",
+      "styled-components"
+    ],
     details: [
       {
         "title": "Project Description",
