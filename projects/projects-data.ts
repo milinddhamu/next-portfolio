@@ -189,6 +189,10 @@ const projectsData = [
         "content": "The main moto for this project was to work with vanilla css apart from my tailwind projects and using styled components inplace of utility classes of tailwind css."
       },
       {
+        "title": "Problems faced as a Tailwind user",
+        "content": "A basic thing which i think many people face using vanilla CSS after tailwind is Box Sizing as of default its not border-box which just make padding go outside or something similar to that so we have to set it manually to border-box."
+      },
+      {
         "title": "Screens",
         "content": "The app consists of three main screens: Home, Question, and Report. Each screen serves a specific purpose in the quiz-taking process."
       },
