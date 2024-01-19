@@ -150,6 +150,11 @@ const projectsData = [
           "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
       },
       {
+        title: "Database",
+        content:
+          "MongoDB powers the app, the data structure for this app is not efficient for scale. As it stores links within the user , so to find it later we have to deep search into the whole database.",
+      },
+      {
         "content": "Explore the [TinyTrims](https://github.com/milinddhamu/tinytrims) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
       }
     ],
