@@ -76,7 +76,7 @@ const projectsData = [
       {
         title: "Installation",
         content:
-          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/your-username/mini-games.git\ncd mini-games\nnpm install\n```",
+          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/mini-games.git\ncd mini-games\nnpm install\n```",
       },
       {
         title: "Usage",
@@ -133,6 +133,11 @@ const projectsData = [
         title: "Project Structure",
         content:
           "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- MongoDB\n- shadcn\n- Next API routes\n- next-auth\n- Tailwind CSS",
+      },
+      {
+        title: "Installation",
+        content:
+          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
       },
       {
         "content": "Explore the [TinyTrims](https://github.com/milinddhamu/tinytrims) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
