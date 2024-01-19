@@ -46,7 +46,7 @@ const projectsData = [
       },
       {
         "title": "Conclusion",
-        "content": "In summary, the \"Clash of Clans Profile Tracker\" represents a harmonious amalgamation of cutting-edge technologies, user-centric design, and gaming passion. By harnessing the power of Next.js, Express, Firebase, and more, this project showcases the potential of creating enriching tools that elevate the gaming experience to new heights.\n\nExplore the [GitHub repository](https://github.com/milinddhamu/coc-nextjs) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
+        "content": "In summary, the \"Clash of Clans Profile Tracker\" represents a harmonious amalgamation of cutting-edge technologies, user-centric design, and gaming passion. By harnessing the power of Next.js, Express, Firebase, and more, this project showcases the potential of creating enriching tools that elevate the gaming experience to new heights.  Explore the [GitHub repository](https://github.com/milinddhamu/coc-nextjs) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
       },
       {
         "content": "Explore the [GitHub repository](https://github.com/milinddhamu/coc-nextjs) to dive into the code and learn more about the intricate mechanics that drive this innovative Clash of Clans companion."
@@ -78,7 +78,7 @@ const projectsData = [
       {
         title: "Project Structure",
         content:
-          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- Express\n- Socket.IO\n- Framer Motion\n- React-Confetti\n- Next-UI-Org\n- Tailwind CSS",
+          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include: - Next.js - Express - Socket.IO - Framer Motion - React-Confetti - Next-UI-Org - Tailwind CSS",
       },
       {
         title: "Installation",
@@ -222,11 +222,11 @@ const projectsData = [
       },
       {
         "title": "Key Features",
-        "content": "The \"Code Editor\" project boasts several key features:\n- Interactive code editing using the powerful Monaco Editor\n- Syntax highlighting for multiple programming languages\n- Real-time output display for compiled code\n- Integration of TypeScript for robust development\n- Hover-over syntax popup for code suggestions and hints"
+        "content": "The \"Code Editor\" project boasts several key features: - Interactive code editing using the powerful Monaco Editor - Syntax highlighting for multiple programming languages - Real-time output display for compiled code - Integration of TypeScript for robust development - Hover-over syntax popup for code suggestions and hints"
       },
       {
         "title": "Future Enhancements",
-        "content": "The \"Code Editor\" project has a promising future with potential enhancements:\n- Adding support for additional programming languages\n- Introducing theme customization options\n- Incorporating test case integration for code validation"
+        "content": "The \"Code Editor\" project has a promising future with potential enhancements: - Adding support for additional programming languages - Introducing theme customization options - Incorporating test case integration for code validation"
       },
       {
         "title": "Conclusion",
