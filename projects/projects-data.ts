@@ -88,7 +88,7 @@ const projectsData = [
       {
         title: "Usage",
         content:
-          "### Development\nRun the development server:\n```bash\nnpm run dev\n```\nVisit [http://localhost:3000](http://localhost:3000) to view your application.\n\n### Build\nBuild the production-ready application:\n```bash\nnpm run build\n```\n### Start\nStart the production server:\n```bash\nnpm start\n```",
+          "Development Run the development server: npm run dev .Visit [http://localhost:3000](http://localhost:3000) to view your application.\n\n### Build\nBuild the production-ready application:\n```bash\nnpm run build\n```\n### Start\nStart the production server:\n```bash\nnpm start\n```",
       },
       {
         title: "Tic Tac Toe (1v1 - Single Screen)",

@@ -98,7 +98,7 @@ export default function Page() {
       </section>
       <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal" />
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
-      <h1 className="text-xl lg:text-2xl font-semibold">My Projects</h1>
+      <h1 className="text-xl lg:text-2xl font-semibold">Projects</h1>
       <MyProjects length="some" />
       <div className="flex flex-row-reverse sm:flex-row w-full px-2">
         <Link href="/projects">
