@@ -52,9 +52,8 @@ export const Profile = () => {
         <div className="flex w-full justify-start px-2">
           <h2 className="text-gray-500/80 font-semibold text-sm">I&apos;m not much a fan of writing , But i try to do as much as possible, Atleast something helpful for someone. Checkout my <a href="https://medium.com/@milind.dhamu.123" className="hover:text-orange-500 underline transition-all">Medium</a>. I&apos;ll try to post more frequently. </h2>
         </div>
-
+        
       </section>
-      <Divider className="max-w-screen-lg mt-1 bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0"/>
     </main>
     </>
   )

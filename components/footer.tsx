@@ -1,13 +1,33 @@
-import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
+"use client"
+
+import { useTheme } from "next-themes";
+
 export const Footer = () => {
+  const { theme } = useTheme();
   return (
-    <footer className="my-6">
-            <div className=" mx-auto flex flex-col justify-center items-center py-2 text-gray-500 gap-2 w-full max-w-screen-md">
-                <div className="flex flex-row">
+    <div className="relative">
+            <div className="flex flex-col w-full">
+              {Array.from({ length: 24 }).map((_, i) => (
+                <div
+                  key={`${i}-stylebox`}
+                  style={{
+                    height: `${i}px`,
+                    marginBottom: i < 24 ? `${20 - i}px` : '0',
+                    backgroundColor: theme === 'light' ? 'black' : 'white',
+                  }}
+                  className="flex w-full"
+                >
+                  &nbsp;
+                </div>
+              ))}
+            </div>
+
+            <div className="absolute bottom-0 left-0 right-0 text-gray-500">
+                <div className="flex flex-row justify-center py-2">
                 <p>&copy; {new Date().getFullYear()}&nbsp;|&nbsp;</p>
                 <a className="text-blue-500" href="/contact">Contact</a>
                 </div>
             </div>
-        </footer>
+        </div>
   )
 }

@@ -4,9 +4,9 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
 import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
 import NextTopLoader from 'nextjs-toploader';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
 	themeColor: [
@@ -29,7 +29,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					" font-sans antialiased ",
 					fontSans.variable
 				)}
 			>
