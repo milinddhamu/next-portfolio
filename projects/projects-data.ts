@@ -140,6 +140,11 @@ const projectsData = [
           "With App router , the database work is done with Next.js API routes. Auth.js or next-auth provides function for protected api routes with session data. Except some public routes all rest routes are protected with next-auth `auth() function to protect api routes`.",
       },
       {
+        title: "Usage",
+        content:
+          "Start with signing in to app with Google provider (as of now), then directly paste your long url to the input box to trim your link. All links will be grouped if you re-use same url to trim.",
+      },
+      {
         title: "Installation",
         content:
           "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
