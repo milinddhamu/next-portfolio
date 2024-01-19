@@ -139,7 +139,7 @@ const projectsData = [
       {
         title: "Project Structure",
         content:
-          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:\n- Next.js\n- MongoDB\n- shadcn\n- Next API routes\n- next-auth\n- Tailwind CSS",
+          "This project is structured as a Next.js application with server-side functionality. The technologies and libraries used include:Next.js - MongoDB - shadcn - Next API routes - next-auth - Tailwind CSS",
       },
       {
         title: "Next.js API routes",
@@ -154,7 +154,7 @@ const projectsData = [
       {
         title: "Installation",
         content:
-          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/tiny-trims.git\ncd mini-games\nnpm install\n```",
+          "To get started, clone the repository and install the dependencies: git clone https://github.com/milinddhamu/tiny-trims.git cd mini-games npm install ",
       },
       {
         title: "Database",
@@ -240,7 +240,7 @@ const projectsData = [
   {
     title: "MRI Brain Tumor Detection",
     slug: "mri-brain-tumor-detection",
-    des: "An advanced project focused on MRI brain tumor detection using machine learning techniques. This project involves processing a dataset of brain MRI images...",
+    des: "An advanced project focused on MRI brain tumor detection using machine learning techniques. This project involves processing a dataset of brain MRI images",
     github: "",
     video:"",
     thumbnail: "/images/tumor-detection-main.webp",
