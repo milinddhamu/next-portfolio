@@ -185,6 +185,10 @@ const projectsData = [
         "content": "The Quiz Web App is designed to allow users to participate in a quiz, answer questions, and receive a score at the end. It follows the guidelines provided in the assignment to create a Single Page Application (SPA) using Next.js, React, and styled-components. The app fetches quiz questions from the 'https://quizapi.io/' API using a unique API key and guides the user through the quiz-taking process."
       },
       {
+        "title": "Main Motive",
+        "content": "The main moto for this project was to work with vanilla css apart from my tailwind projects and using styled components inplace of utility classes of tailwind css."
+      },
+      {
         "title": "Screens",
         "content": "The app consists of three main screens: Home, Question, and Report. Each screen serves a specific purpose in the quiz-taking process."
       },
