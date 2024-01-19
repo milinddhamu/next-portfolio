@@ -66,7 +66,7 @@ const projectsData = [
       "Next.js",
       "Express",
       "Socket.IO",
-      "Next-UI",
+      "NextUI",
       "Tailwind CSS",
     ],
     details: [
@@ -118,7 +118,7 @@ const projectsData = [
   {
     title: "Tiny Trims",
     slug: "tiny-trims",
-    des: "A Next API routes based url-shortener with MongoDB & shadcn for ui.",
+    des: "A Next API routes based url-shortener with MongoDB & shadcn UI.",
     github: "https://github.com/milinddhamu/tinytrims",
     thumbnail: "/images/tiny-trims-main.png",
     live: "https://tinytrims.vercel.app/",
