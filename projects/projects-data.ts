@@ -263,7 +263,7 @@ const projectsData = [
       },
       {
         "title": "Advantages of Numpy",
-        "content": "Numpy is a fundamental library in Python that provides support for multi-dimensional arrays and matrices. In this project, Numpy facilitates:\n- Efficient preprocessing of raw image data\n- Mathematical operations for feature extraction\n- Seamless integration with machine learning frameworks like Tensorflow and Keras"
+        "content": "Numpy is a fundamental library in Python that provides support for multi-dimensional arrays and matrices. In this project, Numpy facilitates: - Efficient preprocessing of raw image data - Mathematical operations for feature extraction - Seamless integration with machine learning frameworks like Tensorflow and Keras"
       },
       {
         "title": "Machine Learning Frameworks",
@@ -271,7 +271,7 @@ const projectsData = [
       },
       {
         "title": "Advantages of Tensorflow and Keras",
-        "content": "Tensorflow and Keras offer several advantages within the project:\n- Streamlined model architecture design\n- GPU acceleration for efficient training\n- Flexibility to experiment with various neural network architectures\n- Robust tools for model evaluation and performance metrics"
+        "content": "Tensorflow and Keras offer several advantages within the project:Streamlined model architecture design - GPU acceleration for efficient training - Flexibility to experiment with various neural network architectures - Robust tools for model evaluation and performance metrics"
       },
       {
         "title": "Jupyter Notebook for Analysis",
