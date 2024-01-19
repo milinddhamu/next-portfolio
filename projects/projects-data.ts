@@ -83,12 +83,12 @@ const projectsData = [
       {
         title: "Installation",
         content:
-          "To get started, clone the repository and install the dependencies:\n```bash\ngit clone https://github.com/milinddhamu/mini-games.git\ncd mini-games\nnpm install\n```",
+          "To get started, clone the repository and install the dependencies: git clone https://github.com/milinddhamu/mini-games.git cd mini-games npm install",
       },
       {
         title: "Usage",
         content:
-          "Development Run the development server: npm run dev .Visit [http://localhost:3000](http://localhost:3000) to view your application.\n\n### Build\nBuild the production-ready application:\n```bash\nnpm run build\n```\n### Start\nStart the production server:\n```bash\nnpm start\n```",
+          "Development Run the development server: npm run dev .Visit [http://localhost:3000] to view your application. Build the production-ready application:npm run build ,Start the production server: npm start",
       },
       {
         title: "Tic Tac Toe (1v1 - Single Screen)",
@@ -234,46 +234,6 @@ const projectsData = [
       },
       {
         "content": "Developers can dive into the [GitHub repository](https://github.com/milinddhamu/Code-Editor) to explore the code and understand the intricate mechanics that drive this innovative online code compiler."
-      }
-    ]
-  },
-  {
-    title: "URL Shortener",
-    slug: "url-shortener",
-    des: "A simple URL shortener application created as a Proof of Concept (PoC) project to explore Next UI. This project allows users to generate shortened URLs...",
-    github: "https://github.com/milinddhamu/url-shortener",
-    thumbnail: "/images/url-shortener-main.webp",
-    live: "https://url-shortener-six-theta.vercel.app/",
-    video:"xNK_cBuqUGs",
-    tech: [
-      "Next UI v1", 
-      "Next.js", 
-      "Tailwind CSS", 
-      "Axios"
-    ],
-    details: [
-      {
-        "title": "Introduction",
-        "content": "In the rapidly evolving digital landscape, simplifying complex processes is a fundamental goal. The \"URL Shortener\" project addresses this by offering a user-friendly solution to the cumbersome task of sharing lengthy URLs. This Proof of Concept (PoC) project delves into the mechanics of creating a URL shortener using Next UI, allowing users to generate concise and shareable links."
-      },
-      {
-        "title": "Overview",
-        "content": "The \"URL Shortener\" application provides a streamlined approach to creating short links for long URLs. This project focuses on the user experience and simplicity, making it easy for users to generate shortened URLs with just a few clicks. By leveraging Next UI, the project ensures a seamless and intuitive interaction for users of all levels."
-      },
-      {
-        "title": "Key Features",
-        "content": "The \"URL Shortener\" project boasts several key features:\n- Input field to enter the original URL\n- Generation of a shortened URL with a click\n- Copy-to-clipboard functionality for easy sharing\n- Responsive design for various devices\n- Integration of Next UI components for consistent and visually appealing user interface"
-      },
-      {
-        "title": "Future Enhancements",
-        "content": "The \"URL Shortener\" project opens the door to potential enhancements:\n- Implementing URL analytics and tracking\n- Introducing custom short URL paths\n- Enhancing the user interface with additional design elements\n- Expanding the project to support user accounts and history"
-      },
-      {
-        "title": "Conclusion",
-        "content": "In summary, the \"URL Shortener\" project exemplifies the power of simplification and user-centric design. By utilizing Next UI, React, and other web technologies, this project showcases how even a seemingly simple task can be elevated through thoughtful implementation."
-      },
-      {
-        "content":" To explore the code and delve into the project's intricacies, visit the [GitHub repository](https://github.com/milinddhamu/url-shortener)."
       }
     ]
   },  
