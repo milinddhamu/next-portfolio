@@ -122,7 +122,7 @@ const projectsData = [
     github: "https://github.com/milinddhamu/tinytrims",
     thumbnail: "/images/tiny-trims-main.png",
     live: "https://tinytrims.vercel.app/",
-    video: "", // If applicable
+    video: "imxa62Ndw-8", // If applicable
     tech: [
       "Next.js",
       "MongoDB",
