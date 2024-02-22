@@ -8,7 +8,7 @@ const ProfileButtons = () => {
   return (
     <span className="flex flex-row justify-center gap-1 w-full">
       <Link href="/about">
-      <Button color="default" style={{borderRadius:"16px 4px 4px 16px"}} variant="bordered" className="group" id="about-me" >
+      <Button color="default" style={{borderRadius:"16px 4px 4px 16px"}} size="sm" variant="bordered" className="group" id="about-me" >
               <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
       </Link>
@@ -18,7 +18,7 @@ const ProfileButtons = () => {
         </Button>
       </Link>
       <Link href="/contact">
-          <Button id="contact" style={{borderRadius:"4px 16px 16px 4px"}} color="default" variant="bordered" >
+          <Button id="contact" style={{borderRadius:"4px 16px 16px 4px"}} size="sm" color="default" variant="bordered" >
             Connect
             <span>&#x1F4E3;</span> 
           </Button>

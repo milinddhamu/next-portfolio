@@ -1,15 +1,11 @@
 import React from 'react';
 
-interface RevealSentenceProps {
-  sentence: string;
-}
-
-const RevealSentence: React.FC<RevealSentenceProps> = ({ sentence }) => {
+const RevealSentence = () => {
   return (
     <>
-      <div className="overflow-hidden text-center py-4">
-      <h2 className="text-sm md:text-base opacity-70 font-mono font-medium">
-        {sentence}
+      <div className="overflow-hidden w-full">
+      <h2 className="text-base opacity-70 text-center">
+      Passionate <p className="font-semibold inline-block bg-gradient-to-t from-violet-900 to-violet-100 bg-clip-text text-transparent ">Full Stack Developer</p> crafting extraordinary projects. Let&apos;s build together!
       </h2>
     </div>
     </>

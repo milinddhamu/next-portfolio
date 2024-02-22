@@ -5,9 +5,9 @@ import { useTheme } from "next-themes";
 export const Footer = () => {
   const { theme } = useTheme();
   return (
-    <div className="relative">
+    <div className="relative mt-10">
             <div className="flex flex-col w-full">
-              {Array.from({ length: 24 }).map((_, i) => (
+              {Array.from({ length: 22 }).map((_, i) => (
                 <div
                   key={`${i}-stylebox`}
                   style={{
