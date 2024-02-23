@@ -7,6 +7,7 @@ const projectsData = [
     thumbnail: "/images/coc-profile-tracker-main.webp",
     live: "https://coc-nextjs.vercel.app/",
     video:"UlILvkksg9k",
+    icon:"./project-icons/coc-nextjs.png",
     tech: [
       "Next.js",
       "NextAuth.js", 
@@ -61,6 +62,7 @@ const projectsData = [
     github: "https://github.com/milinddhamu/mini-games",
     thumbnail: "/images/web-duels-main.webp",
     live: "https://webduels.vercel.app/",
+    icon:"./project-icons/WebDuels.png",
     video: "", // If applicable
     tech: [
       "Next.js",
@@ -123,6 +125,7 @@ const projectsData = [
     thumbnail: "/images/tiny-trims-main.png",
     live: "https://tinytrims.vercel.app/",
     video: "imxa62Ndw-8", // If applicable
+    icon:"./project-icons/TinyTrims.png",
     tech: [
       "Next.js",
       "MongoDB",
@@ -167,16 +170,16 @@ const projectsData = [
     ],
   },
   {
-    title: "Quiz Web App",
+    title: "Quizzer",
     slug: "quiz-web-app",
     des: "A Single Page Application (SPA) quiz web app built with Next.js, React, and styled-components. Users can participate in quizzes, answer questions, and receive a score report at the end.",
     github: "https://github.com/milinddhamu/quiz-app",
     thumbnail: "/images/quiz-app-main.webp",
     live: "https://quiz-app-delta-six.vercel.app/",
     video: "",
+    icon:"./project-icons/Quizzer.png",
     tech: [
       "Next.js",
-      "React",
       "styled-components"
     ],
     details: [
@@ -206,6 +209,7 @@ const projectsData = [
     title: "Code Editor",
     slug: "code-editor",
     des: "An interactive online code compiler built with Monaco Editor, offering real-time code editing, syntax highlighting, output display...",
+    icon:"",
     github: "https://github.com/milinddhamu/Code-Editor",
     thumbnail: "/images/code-editor-main.webp",
     live: "https://code-editor-six-phi.vercel.app/",
@@ -242,6 +246,7 @@ const projectsData = [
     slug: "mri-brain-tumor-detection",
     des: "An advanced project focused on MRI brain tumor detection using machine learning techniques. This project involves processing a dataset of brain MRI images",
     github: "",
+    icon:"",
     video:"",
     thumbnail: "/images/tumor-detection-main.webp",
     live: "",

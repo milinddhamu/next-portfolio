@@ -86,7 +86,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({data}) => {
         </div>
         <Link isExternal href={profileLink}>
         <Button color="default" variant="faded" className=" bg-opacity-50 border-opacity-50 group" style={{borderRadius:"16px",borderWidth:"1px"}}>
-              <span className="flex flex-row items-center gap-1">Full post <CgExternal className=" opacity-70 group-hover:text-blue-500 group-hover:opacity-100 transition-all text-lg" /> </span>
+              <span className="flex flex-row items-center gap-1 font-thin">Full post <CgExternal className=" opacity-70 group-hover:text-blue-500 group-hover:opacity-100 transition-all text-lg" /> </span>
             </Button>
         </Link>
       </CardFooter>

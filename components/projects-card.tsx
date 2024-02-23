@@ -4,6 +4,7 @@ import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Link } from "@nextui-org/link";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import { FiChevronRight } from 'react-icons/fi';
+import {Avatar} from "@nextui-org/avatar";
 
 interface ProjectCardProps {
   data: {
@@ -14,6 +15,7 @@ interface ProjectCardProps {
     live?: string;
     tech: string[];
     des: string;
+    icon?: string;
   }
 }
 
@@ -21,8 +23,19 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
   return (
     <>
       <Card style={{borderRadius:"22px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50 group">
-        <CardHeader className="absolute z-10 top-1 flex-row justify-start items-start gap-2">
-          <p className="text-sm text-white/80 font-bold group-hover:translate-x-1 transition-all duration-300 ">{data?.title}</p>
+        <CardHeader className="absolute z-10 top-1 flex-row justify-start items-center gap-2 ml-1">
+          {data?.icon ? 
+                    <Avatar
+                      name="logo"
+                      src={data?.icon}
+                      radius="full"
+                      className="w-7 h-7 text-tiny"
+                      classNames={{
+                        img:"p-1",
+                        base:"bg-transparent"
+                      }}
+                    /> : <></>}
+          <p className="text-sm text-white/80 font-semibold group-hover:translate-x-1 transition-all duration-300 ">{data?.title}</p>
         </CardHeader>
         
         <Image
@@ -49,7 +62,7 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
             </div>
             <Link href={`/projects/${encodeURIComponent(data.slug)}`}>
             <Button color="default" style={{borderRadius:"16px",borderWidth:"1px"}} variant="faded" className="m-1 bg-opacity-50 border-opacity-50 group" >
-              <span className="flex flex-row items-center gap-2">Learn more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
+              <span className="flex flex-row items-center gap-2 font-thin">Learn more <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
             </Link>
           </div>
