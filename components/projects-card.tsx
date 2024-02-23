@@ -15,7 +15,7 @@ interface ProjectCardProps {
     live?: string;
     tech: string[];
     des: string;
-    icon: string;
+    icon?: string;
   }
 }
 
