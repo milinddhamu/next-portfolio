@@ -7,6 +7,7 @@ const projectsData = [
     thumbnail: "/images/coc-profile-tracker-main.webp",
     live: "https://coc-nextjs.vercel.app/",
     video:"UlILvkksg9k",
+    icon:"./project-icons/coc-nextjs.png",
     tech: [
       "Next.js",
       "NextAuth.js", 
@@ -61,6 +62,7 @@ const projectsData = [
     github: "https://github.com/milinddhamu/mini-games",
     thumbnail: "/images/web-duels-main.webp",
     live: "https://webduels.vercel.app/",
+    icon:"./project-icons/WebDuels.png",
     video: "", // If applicable
     tech: [
       "Next.js",
@@ -123,6 +125,7 @@ const projectsData = [
     thumbnail: "/images/tiny-trims-main.png",
     live: "https://tinytrims.vercel.app/",
     video: "imxa62Ndw-8", // If applicable
+    icon:"./project-icons/TinyTrims.png",
     tech: [
       "Next.js",
       "MongoDB",
@@ -167,16 +170,16 @@ const projectsData = [
     ],
   },
   {
-    title: "Quiz Web App",
+    title: "Quizzer",
     slug: "quiz-web-app",
     des: "A Single Page Application (SPA) quiz web app built with Next.js, React, and styled-components. Users can participate in quizzes, answer questions, and receive a score report at the end.",
     github: "https://github.com/milinddhamu/quiz-app",
     thumbnail: "/images/quiz-app-main.webp",
     live: "https://quiz-app-delta-six.vercel.app/",
     video: "",
+    icon:"./project-icons/Quizzer.png",
     tech: [
       "Next.js",
-      "React",
       "styled-components"
     ],
     details: [

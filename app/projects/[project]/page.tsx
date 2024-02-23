@@ -51,7 +51,7 @@ export default async function Page({ params }: { params: { project: string } }) 
           return (
             <div key={item.title}>
                 <h2 className="text-xl lg:text-2xl mt-4 font-semibold">{item.title}</h2>
-                <p className="text-base lg:text-lg mt-2 ">{item.content}</p>
+                <p className="text-base lg:text-lg mt-2 font-normal">{item.content}</p>
               </div>
           )})}
           <p className="mt-4 text-justify italic text-light">

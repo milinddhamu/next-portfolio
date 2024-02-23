@@ -13,7 +13,7 @@ export const Profile = () => {
   return (
     <>
     <main className="flex flex-col items-center gap-8 px-4">
-      <section className="flex flex-col items-center max-w-screen-md w-full lg:my-6 gap-4 my-4">
+      <section className="flex flex-col items-center max-w-screen-md w-full lg:my-6 gap-4 mt-4">
         <MyName />
         <ProfileButtons />
       </section>
