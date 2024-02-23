@@ -25,6 +25,7 @@ export type ProjectsType = {
   video?:string;
   slug:string;
   details?:ContentItem[];
+  icon?: string;
 };
 
 export type ContentItem = {

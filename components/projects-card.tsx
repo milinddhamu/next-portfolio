@@ -24,10 +24,10 @@ export const ProjectCard = ({ data }: ProjectCardProps) => {
     <>
       <Card style={{borderRadius:"22px"}} isFooterBlurred className="h-[300px] border-1 border-gray-500/50 group">
         <CardHeader className="absolute z-10 top-1 flex-row justify-start items-center gap-2 ml-1">
-          {data.icon ? 
+          {data?.icon ? 
                     <Avatar
                       name="logo"
-                      src={data.icon}
+                      src={data?.icon}
                       radius="full"
                       className="w-7 h-7 text-tiny"
                       classNames={{
