@@ -12,7 +12,7 @@ const ProfileButtons = () => {
               <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
       </Link>
-      <Link href={`https://drive.google.com/file/d/1Pl0UEGb1VwB0dQEi7zJPF_6FOMngthb9/view?usp=sharing`}>
+      <Link href={`https://drive.google.com/file/d/10I5qcErCamhyHFKpKcIsdtUqmy23wbaw/view?usp=sharing`}>
         <Button style={{borderRadius:"4px"}} size="sm" color="default" id="download" variant="bordered">
           Download CV<FiDownload />
         </Button>
