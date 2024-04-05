@@ -12,7 +12,7 @@ import { FiChevronRight } from 'react-icons/fi';
 export const Profile = () => {
   return (
     <>
-    <main className="flex flex-col items-center gap-8 px-4">
+    <main className="flex flex-col items-center gap-8 px-4 relative">
       <section className="flex flex-col items-center max-w-screen-md w-full lg:my-6 gap-4 mt-4">
         <MyName />
         <ProfileButtons />
