@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-import { fontSans } from "@/config/fonts";
+import { fontSans,fontRaleway } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
 import { Navbar } from "@/components/navbar";
@@ -29,8 +29,8 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					`min-h-screen bg-background font-sans antialiased`,
-					fontSans.variable
+					`min-h-screen bg-background font-raleway antialiased`,
+					fontRaleway.className
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>

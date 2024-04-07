@@ -12,12 +12,13 @@ async function getData() {
   return res.json()
 }
 
-export default async function MyBlog(){
+export default async function MyBlog({length}:{ length : string}){
   const data:BlogPost[] = await getData();
+  const displayData = length === 'some' ? data.slice(0, 2) : data;
   return (
     <>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-      {data ?  data?.map((blog:BlogPost , index:number ) => <BlogCard key={blog?.title} data={blog}/>) :
+      {displayData ?  displayData?.map((blog:BlogPost , index:number ) => <BlogCard key={blog?.title} data={blog}/>) :
       <h1>Blogs data &apos;No preview available&apos;</h1>
       }
     </div>
