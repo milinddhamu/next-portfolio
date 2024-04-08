@@ -1,12 +1,13 @@
 import * as React from "react";
+import dynamic from "next/dynamic";
 import {MyName} from "@/components/my-name";
 import {Divider} from "@nextui-org/divider";
 import ProfileButtons from "@/components/profile-buttons";
-import MyBlog from "./my-blog";
 import { MyProjects } from "./my-projects";
 import {Button} from "@nextui-org/button";
 import {Link} from "@nextui-org/link";
 import { FiChevronRight } from 'react-icons/fi';
+const MyBlog = dynamic(() => import('./my-blog'), { ssr: false });
 
 
 export const Profile = () => {
