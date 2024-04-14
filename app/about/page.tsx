@@ -27,10 +27,10 @@ export default function Page() {
       <h2 className="opacity-80 text-sm">Mail me at{" "}{MineData.email}</h2>
       </div>
       </section>
-      <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
+      <Divider className="max-w-screen-md bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
         <h1 className="text-xl lg:text-2xl font-semibold">Education</h1>
-        <div className="flex flex-col gap-2 px-3 border-l-2 border-gray-500/50 mx-1">
+        <div className="flex flex-col gap-2 pl-3 border-l-2 border-gray-500/50 mx-1">
       {MineData.education.map((item:EducationType , index:number)=>{
         return (
         <>
@@ -49,18 +49,18 @@ export default function Page() {
     })}
       </div>
       </section>
-      <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
+      <Divider className="max-w-screen-md bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
         <h1 className="text-xl lg:text-2xl font-semibold">About me</h1>
         <p className="text-justify md:text-left md:text-base px-3" >{MineData.description}</p>
       </section>
-      <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
+      <Divider className="max-w-screen-md bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4">
         <h1 className="text-xl lg:text-2xl font-semibold">Tech Stack</h1>
-        <div className="flex flex-col gap-1 border-l-2 border-dashed border-gray-500/50 mx-1">
+        <div className="flex flex-col gap-2 border-l-2 border-dashed border-gray-500/50 mx-1">
         {MineData.techstack.map((item:TechstackCategory)=>{
           return (
-            <div key={`${item.category}`} className="flex flex-col gap-2 mx-4">  
+            <div key={`${item.category}`} className="flex flex-col gap-1 mx-4">  
             <h1 className="min-w-max font-semibold">{item.category}&#58;</h1>
             <div className="grid-flow-col gap-2">
             {item.items.map((tech:TechstackItem)=>{
@@ -94,7 +94,7 @@ export default function Page() {
       {MineData.skills.map((item:string) => <h3 key={item}>{item}</h3> )}
       </div>
       </section>
-      <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal" />
+      <Divider className="max-w-screen-md bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal" />
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
       <h1 className="text-xl lg:text-2xl font-semibold">Projects</h1>
       <MyProjects length="some" />
