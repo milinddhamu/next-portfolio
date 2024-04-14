@@ -7,8 +7,7 @@ import { MyProjects } from "./my-projects";
 import {Button} from "@nextui-org/button";
 import {Link} from "@nextui-org/link";
 import { FiChevronRight } from 'react-icons/fi';
-const MyBlog = dynamic(() => import('./my-blog'), { ssr: false });
-
+import MyBlog from "./my-blog";
 
 export const Profile = () => {
   return (
@@ -40,7 +39,7 @@ export const Profile = () => {
         <div className="flex w-full px-2">
           <h1 className="font-bold text-2xl">Blogs</h1>
         </div>
-        {/* @ts-expect-error Server Component */}
+              {/* @ts-expect-error Server Component */}
       <MyBlog length="some" />
         <div className="flex flex-row-reverse sm:flex-row w-full px-2">
         <Link href="/blog">

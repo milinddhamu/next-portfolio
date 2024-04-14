@@ -22,7 +22,7 @@ export default function Page() {
       <section className="flex flex-col md:flex-row max-w-screen-md w-full px-4 my-6 lg:my-8 justify-around items-center gap-4 md:gap-0">
       <ProfilePic />
       <div className="flex flex-col items-center md:items-start gap-1 md:gap-2">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl" style={{textShadow}}>{MineData.name}</h1>
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold" style={{textShadow}}>{MineData.name}</h1>
       <h2 className="font-light text-md">Aspiring Web Developer | Tech Enthusiast | Gamer</h2>
       <h2 className="opacity-80 text-sm">Mail me at{" "}{MineData.email}</h2>
       </div>
@@ -51,17 +51,16 @@ export default function Page() {
       </section>
       <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4 mb-6">
-        <h1 className="text-xl lg:text-2xl">About me</h1>
-        <p className="text-left md:text-base px-3" style={{lineHeight:"1.2rem"}}>{MineData.description}</p>
+        <h1 className="text-xl lg:text-2xl font-semibold">About me</h1>
+        <p className="text-justify md:text-left md:text-base px-3" >{MineData.description}</p>
       </section>
       <Divider className="max-w-screen-lg bg-gradient-to-l from-gray-500/0 via-gray-500/50 to-gray-500/0" orientation="horizontal"/>
       <section className="flex flex-col max-w-screen-md w-full px-4 gap-4 my-4">
         <h1 className="text-xl lg:text-2xl font-semibold">Tech Stack</h1>
-        <div className="flex flex-col gap-1 px-4 border-l-2 border-dashed border-gray-500/50 mx-1">
+        <div className="flex flex-col gap-1 border-l-2 border-dashed border-gray-500/50 mx-1">
         {MineData.techstack.map((item:TechstackCategory)=>{
           return (
-            <>
-            <div key={`${item.category}`} className="flex flex-col gap-2">
+            <div key={`${item.category}`} className="flex flex-col gap-2 mx-4">  
             <h1 className="min-w-max font-semibold">{item.category}&#58;</h1>
             <div className="grid-flow-col gap-2">
             {item.items.map((tech:TechstackItem)=>{
@@ -85,7 +84,6 @@ export default function Page() {
             })}
             </div>
             </div>
-            </>
           )
         })}
         </div>
@@ -102,7 +100,7 @@ export default function Page() {
       <MyProjects length="some" />
       <div className="flex flex-row-reverse sm:flex-row w-full px-2">
         <Link href="/projects">
-      <Button id="allprjects" color="default" variant="bordered" radius="lg">
+      <Button id="allprjects" color="default" variant="bordered" radius="lg" size="sm">
         View all <FiChevronRight />
       </Button>
       </Link>
