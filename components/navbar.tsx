@@ -1,3 +1,5 @@
+'use client'
+import { usePathname } from 'next/navigation'
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -14,7 +16,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
-
+import { useRouter } from 'next/navigation'
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	GithubIcon,
@@ -23,6 +25,7 @@ import {
 } from "@/components/icons";
 
 export const Navbar = () => {
+	const pathname = usePathname();
 
 	return (
 		<NextUINavbar maxWidth="lg" position="sticky" shouldHideOnScroll isBordered>
@@ -38,10 +41,11 @@ export const Navbar = () => {
 							<NextLink
 								className={clsx(
 									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
+									"data-[active=true]:text-secondary data-[active=true]:font-medium"
 								)}
 								color="foreground"
 								href={item.href}
+								data-active={pathname === item.href}
 							>
 								{item.label}
 							</NextLink>

@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-import { fontSans,fontRaleway } from "@/config/fonts";
+import { fontRaleway } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
 import { Navbar } from "@/components/navbar";
@@ -29,7 +29,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					`min-h-screen bg-background font-raleway antialiased`,
+					`min-h-screen bg-background font-raleway antialiased relative`,
 					fontRaleway.className
 				)}
 			>

@@ -70,10 +70,10 @@ const MineData = {
     },
   ],
   "skills" : [
-    "Fundamentals Data Structures & Algorithms",
+    "Fundamentals of Data Structures & Algorithms",
     "Research & Development",
     "Problem Solving",
-    "Detailing or Finishing"
+    "Tech Adventurer"
   ]  
 };
 
