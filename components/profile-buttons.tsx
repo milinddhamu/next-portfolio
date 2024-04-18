@@ -9,7 +9,7 @@ const ProfileButtons = () => {
     <span className="flex flex-row justify-center gap-1 w-full">
       <Link href="/about">
       <Button color="default" style={{borderRadius:"16px 4px 4px 16px"}} size="sm" variant="bordered" className="group" id="about-me" >
-              <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg mt-[1px] opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
+              <span className="flex flex-row items-center gap-2">About me <FiChevronRight className="text-lg opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-1" /> </span>
             </Button>
       </Link>
       <Link href={`https://drive.google.com/file/d/10I5qcErCamhyHFKpKcIsdtUqmy23wbaw/view?usp=sharing`}>
@@ -17,7 +17,7 @@ const ProfileButtons = () => {
           Download CV<FiDownload />
         </Button>
       </Link>
-      <Link href="/contact">
+      <Link href="/contact" className="group">
           <Button id="contact" style={{borderRadius:"4px 16px 16px 4px"}} size="sm" color="default" variant="bordered" >
             Connect
             <span>&#x1F4E3;</span> 

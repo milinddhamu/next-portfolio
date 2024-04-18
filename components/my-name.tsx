@@ -10,7 +10,7 @@ export const MyName = () => {
   const textShadow = '.05em .05em 0 rgba(128, 128, 128, 0.5)';
   return (
     <>
-    <div className="">
+    <div className="flex flex-col w-full gap-2">
     <h1 className="text-base opacity-80">
       <p className="wave pr-2 text-2xl">👋</p>Hey there, I{`\u0027`}m
       </h1>
@@ -22,7 +22,6 @@ export const MyName = () => {
               >{character}</h1></Name>
             )})}
       </span>
-    <Spacer y={3} />
         <RevealSentence /> 
     </div>
     </>

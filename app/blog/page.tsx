@@ -3,7 +3,6 @@ import type { Metadata } from 'next';
 import {LoadingCard} from "@/components/loading-card";
 import MyBlog from "../../components/my-blog";
 
-
 export const metadata: Metadata = {
   title: 'Blogs - Milind Dhamu',
   description: 'Blog page',

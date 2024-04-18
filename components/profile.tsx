@@ -12,7 +12,7 @@ import MyBlog from "./my-blog";
 export const Profile = () => {
   return (
     <>
-    <main className="flex flex-col items-center gap-6 px-4 relative">
+    <main className="flex flex-col items-center gap-4 px-4 relative">
       <section className="flex flex-col items-center max-w-screen-md w-full lg:my-6 gap-4 mt-4">
         <MyName />
         <ProfileButtons />

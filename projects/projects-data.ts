@@ -204,42 +204,6 @@ const projectsData = [
         "content": "The project utilizes Next.js for server-rendered React applications, React for building user interfaces, and styled-components for styling React components. It showcases your practice with styled-components and your ability to build a single web app with state management."
       }
     ]
-  },
-  {
-    title: "Code Editor",
-    slug: "code-editor",
-    des: "An interactive online code compiler built with Monaco Editor, offering real-time code editing, syntax highlighting, output display...",
-    icon:"",
-    github: "https://github.com/milinddhamu/Code-Editor",
-    thumbnail: "/images/code-editor-main.webp",
-    live: "https://code-editor-six-phi.vercel.app/",
-    video:"e5C7QI2waV8",
-    tech: ["Monaco Editor", "TypeScript", "Next.js", "Tailwind CSS"],
-    details: [
-      {
-        "title": "Introduction",
-        "content": "In the ever-evolving world of game development and web technologies, creating user-centric tools that enhance gaming experiences has become a common aspiration. The \"Code Editor\" project stands as a testament to this aspiration. This project delves into the fusion of powerful technologies and well-thought-out design, aiming to provide a seamless and insightful experience to developers."
-      },
-      {
-        "title": "Overview",
-        "content": "The \"Code Editor\" is a comprehensive tool meticulously crafted to address the needs of developers and coding enthusiasts. The main objective is to offer an interactive online code compiler that facilitates real-time code editing, syntax highlighting, and output display. It empowers developers to test and experiment with code snippets across various programming languages."
-      },
-      {
-        "title": "Key Features",
-        "content": "The \"Code Editor\" project boasts several key features: - Interactive code editing using the powerful Monaco Editor - Syntax highlighting for multiple programming languages - Real-time output display for compiled code - Integration of TypeScript for robust development - Hover-over syntax popup for code suggestions and hints"
-      },
-      {
-        "title": "Future Enhancements",
-        "content": "The \"Code Editor\" project has a promising future with potential enhancements: - Adding support for additional programming languages - Introducing theme customization options - Incorporating test case integration for code validation"
-      },
-      {
-        "title": "Conclusion",
-        "content": "In summary, the \"Code Editor\" project represents a fusion of cutting-edge technologies and developer-centric design. By harnessing the power of Monaco Editor, TypeScript, and various web technologies, this project showcases the potential of creating an enriching coding environment."
-      },
-      {
-        "content": "Developers can dive into the [GitHub repository](https://github.com/milinddhamu/Code-Editor) to explore the code and understand the intricate mechanics that drive this innovative online code compiler."
-      }
-    ]
   },  
   {
     title: "MRI Brain Tumor Detection",
